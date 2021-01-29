@@ -46,7 +46,7 @@
   <li>The '==' operator checks for equality using type conversion if it is comparing different types. The '===' operator checks for strict equality without type conversion even if it is comparing different types. </li>
   <li>The code snippet prints "How are you?" because in the if conditional, 2 does not equal true (see #15). In the following else conditional, 2 gets type converted to true and so the conditional is true. The following else conditional then does not matter.</li>
   <li>Separate file</li>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li>The result is [6,8,10] because for each integer in [1,2,3], it stores the return value of doSomething(), which takes in the integer and a function that multiplies its parameter by 2, into a return array. doSomething() then adds 2 to the integer and calls the function which multiplies it by 2. So for example, the first element 1 would result in (1+2) * 2 = 6 </li>
+  <li>Separate file</li>
+  <li>The code outputs in the console 1, then 4, then 3, then 2.</li>
 </ol>
